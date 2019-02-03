@@ -1,4 +1,5 @@
 User-Agent: *
+Allow: *
 Disallow: /.git/
 Disallow: /assets/css/
 Disallow: /assets/fonts/
