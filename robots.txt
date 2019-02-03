@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow: /.git/
+Disallow: /assets/
+Sitemap: https://actilectrum.org/sitemap.xml
