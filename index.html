@@ -1,242 +1,239 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<meta name="description" content="Instead of downloading the whole blockchain Actilectrum operates in conjunction with high-performance servers that handle the most complicated parts of the Actinium system. Your private keys never leave the application.">
-		<meta name="keywords" content="actinium, actilectrum, software, lightning network, trezor, ledger nano">
-		<meta name="author" content="Harris Brakmic" />
-		<meta name="robots" content="index, follow">
-		<meta name="revisit-after" content="1 days">
-		<meta name="revisit" content="1 days">
-		<meta name="language" content="English">
-		<meta name="rating" content="general">
-		<meta name="rating" content="safe for kids">
-		<meta property="og:locale" content="en_US" />
-		<meta property="og:type" content="website" />
-		<meta property="og:title" content="⚡ Actilectrum ⚡ The lightweight Actinium Wallet" />
-		<meta property="og:description" content="Instead of downloading the whole blockchain Actilectrum operates in conjunction with high-performance servers that handle the most complicated parts of the Actinium system. Your private keys never leave the application." />
-		<meta property="og:url" content="https://actilectrum.org/" />
-		<meta property="og:site_name" content="Actilectrum" />
-		<!-- <meta property="fb:app_id" content="813501412188048" /> -->
-		<meta property="og:image" content="https://actilectrum.org/actilectrum-featured.png" />
-		<meta name="twitter:card" content="summary_large_image" />
-		<meta name="twitter:site" content="@ActiniumCrypto" />
-		<meta name="twitter:creator" content="@ActiniumCrypto" />
-		<meta name="twitter:description" content="Instead of downloading the whole blockchain Actilectrum operates in conjunction with high-performance servers that handle the most complicated parts of the Actinium system. Your private keys never leave the application." />
-		<meta name="twitter:title" content="⚡ Actilectrum ⚡ The lightweight Actinium Wallet" />
-		<meta name="twitter:image" content="https://actilectrum.org/actilectrum-featured-twitter.png" />
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="Instead of downloading the whole blockchain Actilectrum operates in conjunction with high-performance servers that handle the most complicated parts of the Actinium system. Your private keys never leave the application.">
+      <meta name="keywords" content="actinium, actilectrum, software, lightning network, trezor, ledger nano">
+      <meta name="author" content="Harris Brakmic" />
+      <meta name="robots" content="index, follow">
+      <meta name="revisit-after" content="1 days">
+      <meta name="revisit" content="1 days">
+      <meta name="language" content="English">
+      <meta name="rating" content="general">
+      <meta name="rating" content="safe for kids">
+      <meta property="og:locale" content="en_US" />
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content="⚡ Actilectrum ⚡ The lightweight Actinium Wallet" />
+      <meta property="og:description" content="Instead of downloading the whole blockchain Actilectrum operates in conjunction with high-performance servers that handle the most complicated parts of the Actinium system. Your private keys never leave the application." />
+      <meta property="og:url" content="https://actilectrum.org/" />
+      <meta property="og:site_name" content="Actilectrum" />
+      <!-- <meta property="fb:app_id" content="813501412188048" /> -->
+      <meta property="og:image" content="https://actilectrum.org/actilectrum-featured.png" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:site" content="@ActiniumCrypto" />
+      <meta name="twitter:creator" content="@ActiniumCrypto" />
+      <meta name="twitter:description" content="Instead of downloading the whole blockchain Actilectrum operates in conjunction with high-performance servers that handle the most complicated parts of the Actinium system. Your private keys never leave the application." />
+      <meta name="twitter:title" content="⚡ Actilectrum ⚡ The lightweight Actinium Wallet" />
+      <meta name="twitter:image" content="https://actilectrum.org/actilectrum-featured-twitter.png" />
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121419345-2"></script>
+      <script>
+         window.dataLayer = window.dataLayer || [];
+         function gtag(){dataLayer.push(arguments);}
+         // Don’t call the init functions just yet:
+         // gtag(‘js’, new Date());
+         // gtag(‘config’, ‘UA-XXXXXXXX-1’);
 
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-    
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121419345-2"></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
+         function initialiseGoogleAnalytics() {
+           gtag('js', new Date());
+           gtag('config', 'UA-121419345-2');
+         }
 
-			gtag('config', 'UA-121419345-2');
-		</script>
-		<meta name="google-site-verification" content="98Os-XU-iJna17E_8lDClLoiDntbVEy0d8nkBI0YF5g" />
-		<link rel="apple-touch-icon" sizes="57x57" href="assets/img/logo/apple/apple-icon-57x57.png">
-		<link rel="apple-touch-icon" sizes="60x60" href="assets/img/logo/apple/apple-icon-60x60.png">
-		<link rel="apple-touch-icon" sizes="72x72" href="assets/img/logo/apple/apple-icon-72x72.png">
-		<link rel="apple-touch-icon" sizes="76x76" href="assets/img/logo/apple/apple-icon-76x76.png">
-		<link rel="apple-touch-icon" sizes="114x114" href="assets/img/logo/apple/apple-icon-114x114.png">
-		<link rel="apple-touch-icon" sizes="120x120" href="assets/img/logo/apple/apple-icon-120x120.png">
-		<link rel="apple-touch-icon" sizes="144x144" href="assets/img/logo/apple/apple-icon-144x144.png">
-		<link rel="apple-touch-icon" sizes="152x152" href="assets/img/logo/apple/apple-icon-152x152.png">
-		<link rel="apple-touch-icon" sizes="180x180" href="assets/img/logo/apple/apple-icon-180x180.png">
-		<link rel="icon" type="image/png" sizes="192x192"  href="assets/img/logo/android/android-icon-192x192.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-		<link rel="manifest" href="manifest.json">
-		<meta name="msapplication-TileColor" content="#ffffff">
-		<meta name="msapplication-TileImage" content="ms-icon-144x144.png">
-		<meta name="theme-color" content="#21E6C1">
-		<meta name="application-name" content="Actinium" />
-		<meta name="msapplication-config" content="browserconfig.xml">
-		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-		<link rel="icon" href="favicon.ico">
+         // Subscribe for the cookie consent events
+         $(document).bind("user_cookie_already_accepted", function(event, object) {
+           initialiseGoogleAnalytics();
+         });
 
-		<!-- Styles -->
-
-		<link href="assets/css/page.css" rel="stylesheet">
-		<link href="assets/css/style.css" rel="stylesheet">
-		<link href="assets/css/hover.css" rel="stylesheet">
-		<link href="custom.css" rel="stylesheet">
-		<link href="buttons.css" rel="stylesheet">
-		<title>Actilectrum - The lightweight Actinium Wallet</title>
-	</head>
-	<body>
-
-		<!-- Navbar -->
-
-		<nav class="navbar navbar-expand-lg navbar-light" data-navbar="">
-			<div class="container">
-				<div class="col-sm-10 col-md-10 col-lg-10 mx-auto text-center">
-					<a class="navbar-brand" href="#">
-					<img class="logo-dark" src="assets/img/logo/actilectrum-header.svg" alt="logo">
-					<img class="logo-light" src="assets/img/logo/actilectrum-header.svg" alt="logo">
-					</a>
-				</div>
-			</div>
-		</nav>
-
-		<!-- /.navbar -->
-
-		<!-- Header -->
-
-		<header class="header text-center text-1 h-fullscreen overflow-hidden" style="background-image: linear-gradient(0deg, #172539 0%, #0b1726 100%);">
-			<canvas class="constellation" data-color="#21E6C1" data-length="100" data-radius="50"></canvas>
-			<div class="container position-static">
-				<div class="row align-items-center h-100">
-					<div class="col-sm-10 col-md-10 col-lg-10 mx-auto">
-						<div class="row align-items-center">
-							<div class="col-7 col-sm-3 col-md-3 col-lg-2 mx-auto mb-5 order-lg-1 order-md-1 order-sm-1 order-3">
-								<a href="https://trezor.io/" target="_blank" class="hvr-float"><img src="assets/img/logo/trezor-logo.svg" class="shadow-svg" alt="Trezor" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" data-aos-easing="ease-in-out"></a>
-							</div>
-							<div class="col-md-1 col-lg-1 mx-auto mb-5 d-xs-none order-lg-2 order-md-2 order-sm-2 order-2" data-aos="fade-in" data-aos-delay="500" data-aos-duration="2000" data-aos-easing="ease-in-out">
-								<img src="assets/img/logo/plus-icon.svg" class="shadow-svg" alt="plus">
-							</div>
-							<div class="col-6 col-sm-3 col-md-3 col-lg-2 mx-auto mb-5 order-lg-3 order-md-3 order-sm-3 order-1" data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000" data-aos-easing="ease-in-out">
-								<a href="https://actinium.org/" target="_blank" class="hvr-float"><img src="assets/img/logo/actilectrum-logo-slider.svg" class="shadow-svg" alt="Actinium"></a>
-							</div>
-							<div class="col-md-1 col-lg-1 mx-auto mb-5 d-xs-none order-lg-4 order-md-4 order-sm-4 order-4" data-aos="fade-in" data-aos-delay="500" data-aos-duration="2000" data-aos-easing="ease-in-out">
-								<img src="assets/img/logo/plus-icon.svg" class="shadow-svg" alt="plus">
-							</div>
-							<div class="col-7 col-sm-3 col-md-3 col-lg-2 mx-auto mb-5 order-lg-5 order-md-5 order-sm-5 order-5" data-aos="fade-in">
-								<a href="https://www.ledger.com/" target="_blank" class="hvr-float"><img src="assets/img/logo/ledger-logo.svg" class="shadow-svg" alt="Ledger" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" data-aos-easing="ease-in-out"></a>
-							</div>
-						</div>
-						<h1 class="display-5 fw-400 pb-3" data-aos="fade-in" data-aos-delay="1500" data-aos-duration="1000" data-aos-easing="ease-in-out">The lightweight <strong class="fw-600">Actinium</strong> Wallet</h1>
-						<h2 class="display-6 pb-5" data-aos="fade-in" data-aos-delay="1500" data-aos-duration="1000" data-aos-easing="ease-in-out" style="color: #21E6C1;"><span class="fw-200 pl-2" data-typing="Fast blockchain sync,Hardware wallets,Brain wallets,Segwit and more..." data-type-speed="80"></span></h2>
-						<p data-aos="fade-in" data-aos-delay="1500" data-aos-duration="1000" data-aos-easing="ease-in-out">Instead of downloading the whole blockchain Actilectrum operates in conjunction with high-performance servers that handle the most complicated parts of the Actinium system. Your private keys never leave the application.</p>
-						<div data-aos="fade-up" data-aos-delay="1500" data-aos-duration="2000" data-aos-easing="ease-in-out">
-							<a class="btn btn-xl btn-round btn-custom-pink mb-3 mr-1 ml-1" href="https://github.com/Actinium-project/Actilectrum/wiki/Using-Trezor-with-Actilectrum" target="_blank">See how it works!</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</header>
-
-		<!-- /.header -->
-
-		<!-- Main Content -->
-
-		<main class="main-content">
-
-			<!-- Downloads -->
-
-			<section id="wallets" class="section overflow-hidden p-3 pt-5 pb-7 bg-2">
-				<div class="container">
-					<header class="section-header text-1" data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000" data-aos-easing="ease-in-out">
-						<h2>Downloads</h2>
-						<p class="lead">Download Actilectrum for any platform</p>
-					</header>
-					<div class="row gap-y text-center">
-						<div class="col-md-4 col-xl-4 feature-1" data-aos="fade-in" data-aos-delay="250" data-aos-duration="1000" data-aos-easing="ease-in-out">
-							<p class="feature-icon"><i class="fa fa-windows gradient-icon"></i></p>
-							<h3 class="text-1">Windows</h3>
-							<p class="text-1">&nbsp</p>
-							<a class="btn btn-md btn-round btn-custom-green mb-3 mr-1 ml-1" href="https://github.com/Actinium-project/Actilectrum/releases/download/v3.3.3.1/actilectrum-9000c063-setup.exe" target="_blank">Setup</a>
-							<a class="btn btn-md btn-round btn-custom-green mb-3 mr-1 ml-1" href="https://github.com/Actinium-project/Actilectrum/releases/download/v3.3.3.1/actilectrum-9000c063-portable.exe" target="_blank">Portable</a>
-							<a class="btn btn-md btn-round btn-custom-green mb-3 mr-1 ml-1" href="https://github.com/Actinium-project/Actilectrum/releases/download/v3.3.3.1/actilectrum-9000c063.exe" target="_blank">Standalone</a>
-						</div>
-						<div class="col-md-4 col-xl-4 feature-1" data-aos="fade-in" data-aos-delay="500" data-aos-duration="1000" data-aos-easing="ease-in-out">
-							<p class="feature-icon"><i class="fa fa-linux gradient-icon"></i></p>
-							<h3 class="text-1">Linux</h3>
-							<p class="text-1">Compilation tutorials</p>
-							<a class="btn btn-md btn-round btn-custom-pink mb-3 mr-1 ml-1" href="https://github.com/Actinium-project/Actilectrum/blob/master/contrib/build-linux/README.md" target="_blank">Actilectrum wallet</a>
-							<a class="btn btn-md btn-round btn-custom-green mb-3 mr-1 ml-1" href="https://github.com/Actinium-project/electrumx-actinium" target="_blank">Actilectrum server</a>
-						</div>
-						<div class="col-md-4 col-xl-4 feature-1" data-aos="fade-in" data-aos-delay="750" data-aos-duration="1000" data-aos-easing="ease-in-out">
-							<p class="feature-icon"><i class="fa fa-apple gradient-icon"></i></p>
-							<h3 class="text-1">macOS</h3>
-							<p class="text-1">&nbsp</p>
-							<a class="btn btn-md btn-round btn-custom-green mb-3 mr-1 ml-1" href="https://github.com/Actinium-project/Actilectrum/releases/download/v3.3.3.1/actilectrum-3.3.3.1-43-g9000c063.dmg" target="_blank">DMG</a>
-							<a class="btn btn-md btn-round btn-custom-green mb-3 mr-1 ml-1" href="https://github.com/Actinium-project/Actilectrum/releases/download/v3.3.3.1/Actilectrum.app.zip" target="_blank">Application</a>
-						</div>
-					</div>
-				</div>
-			</section>
-
-      <!-- ./Downloads -->
-
-			<!-- More info and screenshots -->
-
-			<section class="section p-3 pt-7 pb-7 bg-2" style="background-image: linear-gradient(0deg, #0b1726 0%, #172539 100%);">
-				<div class="container">
-					<div class="row align-items-center">
-						<div class="col-12 col-md-4 col-lg-4 mx-auto py-8 text-center feature-1" data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000" data-aos-easing="ease-in-out">
-							<p class="feature-icon"><i class="fa fa-info-circle gradient-icon"></i></p>
-							<h3 class="text-1">Featured links & screenshots</h3>
-							<br>
-							<a class="btn btn-md btn-round btn-custom-green mb-3 mr-1 ml-1" href="https://actinium.org/" target="_blank">Actinium website</a>
-							<a class="btn btn-md btn-round btn-custom-green mb-3 mr-1 ml-1" href="https://goldmine.actinium.org/" target="_blank">Community pool</a>
-							<a class="btn btn-md btn-round btn-custom-pink mb-3 mr-1 ml-1" href="https://actinium.store/" target="_blank">Actinium Store</a>
-						</div>
-						<div class="col-12 col-md-8 col-lg-6 mx-auto" data-aos="fade-left" data-aos-delay="250" data-aos-duration="1000" data-aos-easing="ease-in-out">
-							<div class="gallery gallery-4-type4" data-provide="photoswipe">
-								<a class="gallery-item shadow-gallery" href="assets/img/trezor-app/trezor_setup_1.png">
-								<img src="assets/img/trezor-app/trezor_setup_1.png" alt="Trezor setup, step 1">
-								</a>
-								<div class="gallery-item-group">
-									<a class="gallery-item shadow-gallery" href="assets/img/trezor-app/trezor_setup_2.png">
-									<img src="assets/img/trezor-app/trezor_setup_2.png" alt="Trezor setup, step 2">
-									</a>
-									<a class="gallery-item shadow-gallery" href="assets/img/trezor-app/trezor_setup_3.png">
-									<img src="assets/img/trezor-app/trezor_setup_3.png" alt="Trezor setup, step 3">
-									</a>
-									<a class="gallery-item shadow-gallery" href="assets/img/trezor-app/trezor_setup_4.png">
-										<div class="gallery-item-overlay">+5</div>
-										<img src="assets/img/trezor-app/trezor_setup_4.png" alt="Trezor setup, step 4">
-									</a>
-								</div>
-								<div class="gallery-extra-items">
-									<a class="gallery-item" href="assets/img/trezor-app/trezor_setup_5.png">
-									<img src="assets/img/trezor-app/trezor_setup_5.png" alt="Trezor setup, step 5">
-									</a>
-									<a class="gallery-item" href="assets/img/trezor-app/trezor_setup_6.png">
-									<img src="assets/img/trezor-app/trezor_setup_6.png" alt="Trezor setup, step 6">
-									</a>
-									<a class="gallery-item" class="assets/img/trezor-app/trezor_setup_7.png">
-									<img src="assets/img/trezor-app/trezor_setup_7.png" alt="Trezor setup, step 7">
-									</a>
-									<a class="gallery-item" href="assets/img/trezor-app/trezor_setup_8.png">
-									<img src="assets/img/trezor-app/trezor_setup_8.png" alt="Trezor setup, step 8">
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
-      <!-- ./More info and screenshots -->
-
-		</main>
-
-		<!-- Footer -->
-
-		<footer class="footer bg-1">
-			<div class="container">
-				<div class="row gap-y align-items-center">
-					<div class="col-6 col-lg-6 mx-auto">
-						<p class="m-0 text-center text-white">Copyright © 2019 - <b><a href="https://beta.companieshouse.gov.uk/company/11707932" target="_blank">The Actinium Project Ltd</a></p>
-						</b>
-					</div>
-				</div>
-			</div>
-		</footer>
-
-		<!-- /.footer -->
-
-		<!-- Scripts -->
-
-		<script src="assets/js/jquery.js"></script>
-		<script src="assets/js/page.min.js"></script>
-		<script src="assets/js/script.js"></script>
-	</body>
+         $(document).bind("user_cookie_consent_changed", function(event, object) {
+           const userConsentGiven = $(object).attr('consent');
+           if (userConsentGiven) {
+             // User clicked on enabling cookies. Now it’s safe to call the
+             // init functions.
+             initialiseGoogleAnalytics();
+           }
+         });
+      </script>
+      <meta name="google-site-verification" content="98Os-XU-iJna17E_8lDClLoiDntbVEy0d8nkBI0YF5g" />
+      <link rel="apple-touch-icon" sizes="57x57" href="assets/img/logo/apple/apple-icon-57x57.png">
+      <link rel="apple-touch-icon" sizes="60x60" href="assets/img/logo/apple/apple-icon-60x60.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="assets/img/logo/apple/apple-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="76x76" href="assets/img/logo/apple/apple-icon-76x76.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="assets/img/logo/apple/apple-icon-114x114.png">
+      <link rel="apple-touch-icon" sizes="120x120" href="assets/img/logo/apple/apple-icon-120x120.png">
+      <link rel="apple-touch-icon" sizes="144x144" href="assets/img/logo/apple/apple-icon-144x144.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="assets/img/logo/apple/apple-icon-152x152.png">
+      <link rel="apple-touch-icon" sizes="180x180" href="assets/img/logo/apple/apple-icon-180x180.png">
+      <link rel="icon" type="image/png" sizes="192x192"  href="assets/img/logo/android/android-icon-192x192.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+      <link rel="manifest" href="manifest.json">
+      <meta name="msapplication-TileColor" content="#ffffff">
+      <meta name="msapplication-TileImage" content="ms-icon-144x144.png">
+      <meta name="theme-color" content="#21E6C1">
+      <meta name="application-name" content="Actilectrum" />
+      <meta name="msapplication-config" content="browserconfig.xml">
+      <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+      <link rel="icon" href="favicon.ico">
+      <!-- Styles -->
+      <link href="assets/css/page.css" rel="stylesheet">
+      <link href="assets/css/style.css" rel="stylesheet">
+      <link href="assets/css/hover.css" rel="stylesheet">
+      <link href="custom.css" rel="stylesheet">
+      <link href="buttons.css" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="assets/css/jquery-eu-cookie-law-popup.css">
+      <title>Actilectrum - The lightweight Actinium Wallet</title>
+   </head>
+   <body class="eupopup eupopup-bottom">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light" data-navbar="">
+         <div class="container">
+            <div class="col-sm-10 col-md-10 col-lg-10 mx-auto text-center">
+               <a class="navbar-brand" href="https://actilectrum.org">
+               <img class="logo-dark" src="assets/img/logo/actilectrum-header.svg" alt="logo">
+               <img class="logo-light" src="assets/img/logo/actilectrum-header.svg" alt="logo">
+               </a>
+            </div>
+         </div>
+      </nav>
+      <!-- /.navbar -->
+      <!-- Header -->
+      <header class="header text-center text-1 h-fullscreen overflow-hidden" style="background-image: linear-gradient(0deg, #172539 0%, #0b1726 100%);">
+         <canvas class="constellation" data-color="#21E6C1" data-length="100" data-radius="50"></canvas>
+         <div class="container position-static">
+            <div class="row align-items-center h-100">
+               <div class="col-sm-10 col-md-10 col-lg-10 mx-auto">
+                  <div class="row align-items-center">
+                     <div class="col-7 col-sm-3 col-md-3 col-lg-2 mx-auto mb-5 order-lg-1 order-md-1 order-sm-1 order-3">
+                        <a href="https://trezor.io/" target="_blank" class="hvr-float"><img src="assets/img/logo/trezor-logo.svg" class="shadow-svg" alt="Trezor" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" data-aos-easing="ease-in-out"></a>
+                     </div>
+                     <div class="col-md-1 col-lg-1 mx-auto mb-5 d-xs-none order-lg-2 order-md-2 order-sm-2 order-2" data-aos="fade-in" data-aos-delay="500" data-aos-duration="2000" data-aos-easing="ease-in-out">
+                        <img src="assets/img/logo/plus-icon.svg" class="shadow-svg" alt="plus">
+                     </div>
+                     <div class="col-6 col-sm-3 col-md-3 col-lg-2 mx-auto mb-5 order-lg-3 order-md-3 order-sm-3 order-1" data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                        <a href="https://actinium.org/" target="_blank" class="hvr-float"><img src="assets/img/logo/actilectrum-logo-slider.svg" class="shadow-svg" alt="Actinium"></a>
+                     </div>
+                     <div class="col-md-1 col-lg-1 mx-auto mb-5 d-xs-none order-lg-4 order-md-4 order-sm-4 order-4" data-aos="fade-in" data-aos-delay="500" data-aos-duration="2000" data-aos-easing="ease-in-out">
+                        <img src="assets/img/logo/plus-icon.svg" class="shadow-svg" alt="plus">
+                     </div>
+                     <div class="col-7 col-sm-3 col-md-3 col-lg-2 mx-auto mb-5 order-lg-5 order-md-5 order-sm-5 order-5" data-aos="fade-in">
+                        <a href="https://www.ledger.com/" target="_blank" class="hvr-float"><img src="assets/img/logo/ledger-logo.svg" class="shadow-svg" alt="Ledger" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000" data-aos-easing="ease-in-out"></a>
+                     </div>
+                  </div>
+                  <h1 class="display-5 fw-400 pb-3" data-aos="fade-in" data-aos-delay="1500" data-aos-duration="1000" data-aos-easing="ease-in-out">The lightweight <strong class="fw-600">Actinium</strong> Wallet</h1>
+                  <h2 class="display-6 pb-5" data-aos="fade-in" data-aos-delay="1500" data-aos-duration="1000" data-aos-easing="ease-in-out" style="color: #21E6C1;"><span class="fw-200 pl-2" data-typing="Fast blockchain sync,Hardware wallets,Brain wallets,Segwit and more..." data-type-speed="80"></span></h2>
+                  <p data-aos="fade-in" data-aos-delay="1500" data-aos-duration="1000" data-aos-easing="ease-in-out">Instead of downloading the whole blockchain Actilectrum operates in conjunction with high-performance servers that handle the most complicated parts of the Actinium system. Your private keys never leave the application.</p>
+                  <div data-aos="fade-up" data-aos-delay="1500" data-aos-duration="2000" data-aos-easing="ease-in-out">
+                     <a class="btn btn-xl btn-round btn-custom-pink mb-3 mr-1 ml-1" href="https://github.com/Actinium-project/Actilectrum/wiki/Using-Trezor-with-Actilectrum" target="_blank">See how it works!</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- /.header -->
+      <!-- Main Content -->
+      <main class="main-content">
+         <!-- Downloads -->
+         <section id="wallets" class="section overflow-hidden p-3 pt-5 pb-7 bg-2">
+            <div class="container">
+               <header class="section-header text-1" data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                  <h2>Downloads</h2>
+                  <p class="lead">Download Actilectrum for any platform</p>
+               </header>
+               <div class="row gap-y text-center">
+                  <div class="col-md-4 col-xl-4 feature-1" data-aos="fade-in" data-aos-delay="250" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                     <p class="feature-icon"><i class="fa fa-windows gradient-icon"></i></p>
+                     <h3 class="text-1">Windows</h3>
+                     <p class="text-1">&nbsp</p>
+                     <a class="btn btn-md btn-round btn-custom-green mb-3 mr-1 ml-1" href="https://github.com/Actinium-project/Actilectrum/releases/download/v3.3.3.1/actilectrum-9000c063-setup.exe" target="_blank">Setup</a>
+                     <a class="btn btn-md btn-round btn-custom-green mb-3 mr-1 ml-1" href="https://github.com/Actinium-project/Actilectrum/releases/download/v3.3.3.1/actilectrum-9000c063-portable.exe" target="_blank">Portable</a>
+                     <a class="btn btn-md btn-round btn-custom-green mb-3 mr-1 ml-1" href="https://github.com/Actinium-project/Actilectrum/releases/download/v3.3.3.1/actilectrum-9000c063.exe" target="_blank">Standalone</a>
+                  </div>
+                  <div class="col-md-4 col-xl-4 feature-1" data-aos="fade-in" data-aos-delay="500" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                     <p class="feature-icon"><i class="fa fa-linux gradient-icon"></i></p>
+                     <h3 class="text-1">Linux</h3>
+                     <p class="text-1">Compilation tutorials</p>
+                     <a class="btn btn-md btn-round btn-custom-pink mb-3 mr-1 ml-1" href="https://github.com/Actinium-project/Actilectrum/blob/master/contrib/build-linux/README.md" target="_blank">Actilectrum wallet</a>
+                     <a class="btn btn-md btn-round btn-custom-green mb-3 mr-1 ml-1" href="https://github.com/Actinium-project/electrumx-actinium" target="_blank">Actilectrum server</a>
+                  </div>
+                  <div class="col-md-4 col-xl-4 feature-1" data-aos="fade-in" data-aos-delay="750" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                     <p class="feature-icon"><i class="fa fa-apple gradient-icon"></i></p>
+                     <h3 class="text-1">macOS</h3>
+                     <p class="text-1">&nbsp</p>
+                     <a class="btn btn-md btn-round btn-custom-green mb-3 mr-1 ml-1" href="https://github.com/Actinium-project/Actilectrum/releases/download/v3.3.3.1/actilectrum-3.3.3.1-43-g9000c063.dmg" target="_blank">DMG</a>
+                     <a class="btn btn-md btn-round btn-custom-green mb-3 mr-1 ml-1" href="https://github.com/Actinium-project/Actilectrum/releases/download/v3.3.3.1/Actilectrum.app.zip" target="_blank">Application</a>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- ./Downloads -->
+         <!-- More info and screenshots -->
+         <section class="section p-3 pt-7 pb-7 bg-2" style="background-image: linear-gradient(0deg, #0b1726 0%, #172539 100%);">
+            <div class="container">
+               <div class="row align-items-center">
+                  <div class="col-12 col-md-4 col-lg-4 mx-auto py-8 text-center feature-1" data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                     <p class="feature-icon"><i class="fa fa-info-circle gradient-icon"></i></p>
+                     <h3 class="text-1">Featured links & screenshots</h3>
+                     <br>
+                     <a class="btn btn-md btn-round btn-custom-green mb-3 mr-1 ml-1" href="https://actinium.org/" target="_blank">Actinium website</a>
+                     <a class="btn btn-md btn-round btn-custom-green mb-3 mr-1 ml-1" href="https://goldmine.actinium.org/" target="_blank">Community pool</a>
+                     <a class="btn btn-md btn-round btn-custom-pink mb-3 mr-1 ml-1" href="https://actinium.store/" target="_blank">Actinium Store</a>
+                  </div>
+                  <div class="col-12 col-md-8 col-lg-6 mx-auto" data-aos="fade-left" data-aos-delay="250" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                     <div class="gallery gallery-4-type4" data-provide="photoswipe">
+                        <a class="gallery-item shadow-gallery" href="assets/img/trezor-app/trezor_setup_1.png">
+                        <img src="assets/img/trezor-app/trezor_setup_1.png" alt="Trezor setup, step 1">
+                        </a>
+                        <div class="gallery-item-group">
+                           <a class="gallery-item shadow-gallery" href="assets/img/trezor-app/trezor_setup_2.png">
+                           <img src="assets/img/trezor-app/trezor_setup_2.png" alt="Trezor setup, step 2">
+                           </a>
+                           <a class="gallery-item shadow-gallery" href="assets/img/trezor-app/trezor_setup_3.png">
+                           <img src="assets/img/trezor-app/trezor_setup_3.png" alt="Trezor setup, step 3">
+                           </a>
+                           <a class="gallery-item shadow-gallery" href="assets/img/trezor-app/trezor_setup_4.png">
+                              <div class="gallery-item-overlay">+5</div>
+                              <img src="assets/img/trezor-app/trezor_setup_4.png" alt="Trezor setup, step 4">
+                           </a>
+                        </div>
+                        <div class="gallery-extra-items">
+                           <a class="gallery-item" href="assets/img/trezor-app/trezor_setup_5.png">
+                           <img src="assets/img/trezor-app/trezor_setup_5.png" alt="Trezor setup, step 5">
+                           </a>
+                           <a class="gallery-item" href="assets/img/trezor-app/trezor_setup_6.png">
+                           <img src="assets/img/trezor-app/trezor_setup_6.png" alt="Trezor setup, step 6">
+                           </a>
+                           <a class="gallery-item" class="assets/img/trezor-app/trezor_setup_7.png">
+                           <img src="assets/img/trezor-app/trezor_setup_7.png" alt="Trezor setup, step 7">
+                           </a>
+                           <a class="gallery-item" href="assets/img/trezor-app/trezor_setup_8.png">
+                           <img src="assets/img/trezor-app/trezor_setup_8.png" alt="Trezor setup, step 8">
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- ./More info and screenshots -->
+      </main>
+      <!-- Footer -->
+      <footer class="footer bg-1">
+         <div class="container">
+            <div class="row gap-y align-items-center">
+               <div class="col-6 col-lg-6 mx-auto">
+                  <p class="m-0 text-center text-white">Copyright © 2019 - <b><a href="https://beta.companieshouse.gov.uk/company/11707932" target="_blank">The Actinium Project Ltd</a></b></p>
+                  <p class="m-0 text-center text-white"><a href="privacy-policy.html">Privacy policy</a> - <a href="data-security.html">Data security</a></p>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- /.footer -->
+      <!-- Scripts -->
+      <script src="assets/js/jquery.js"></script>
+      <script src="assets/js/page.min.js"></script>
+      <script src="assets/js/script.js"></script>
+      <script src="assets/js/jquery-eu-cookie-law-popup.js"></script>
+   </body>
 </html>
