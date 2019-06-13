@@ -26,34 +26,25 @@
       <meta name="twitter:description" content="Instead of downloading the whole blockchain Actilectrum operates in conjunction with high-performance servers that handle the most complicated parts of the Actinium system. Your private keys never leave the application." />
       <meta name="twitter:title" content="⚡ Actilectrum ⚡ The lightweight Actinium Wallet" />
       <meta name="twitter:image" content="https://actilectrum.org/actilectrum-featured-twitter.png" />
+      <!-- Schema script -->
+  		<script type="application/ld+json">
+  			{
+  			  "@context": "http://schema.org",
+  			  "@type": "EducationalOrganization",
+  			  "name": "Actilectrum",
+          "alternateName": "Actilectrum, the lightweight Actinium wallet",
+  			  "url": "https://actilectrum.org",
+  			  "logo": "https://actilectrum.org/assets/img/logo/actilectrum-logo.png",
+  			  "sameAs": [
+  			    "https://twitter.com/ActiniumCrypto",
+  			    "https://github.com/Actinium-project",
+  			    "https://actinium.org"
+  			  ]
+  			}
+  		</script>
       <!-- Global site tag (gtag.js) - Google Analytics -->
       <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121419345-2"></script>
-      <script>
-         window.dataLayer = window.dataLayer || [];
-         function gtag(){dataLayer.push(arguments);}
-         // Don’t call the init functions just yet:
-         // gtag(‘js’, new Date());
-         // gtag(‘config’, ‘UA-XXXXXXXX-1’);
 
-         function initialiseGoogleAnalytics() {
-           gtag('js', new Date());
-           gtag('config', 'UA-121419345-2');
-         }
-
-         // Subscribe for the cookie consent events
-         $(document).bind("user_cookie_already_accepted", function(event, object) {
-           initialiseGoogleAnalytics();
-         });
-
-         $(document).bind("user_cookie_consent_changed", function(event, object) {
-           const userConsentGiven = $(object).attr('consent');
-           if (userConsentGiven) {
-             // User clicked on enabling cookies. Now it’s safe to call the
-             // init functions.
-             initialiseGoogleAnalytics();
-           }
-         });
-      </script>
       <meta name="google-site-verification" content="98Os-XU-iJna17E_8lDClLoiDntbVEy0d8nkBI0YF5g" />
       <link rel="apple-touch-icon" sizes="57x57" href="assets/img/logo/apple/apple-icon-57x57.png">
       <link rel="apple-touch-icon" sizes="60x60" href="assets/img/logo/apple/apple-icon-60x60.png">
@@ -235,5 +226,31 @@
       <script src="assets/js/page.min.js"></script>
       <script src="assets/js/script.js"></script>
       <script src="assets/js/jquery-eu-cookie-law-popup.js"></script>
+      <script>
+         window.dataLayer = window.dataLayer || [];
+         function gtag(){dataLayer.push(arguments);}
+         // Don’t call the init functions just yet:
+         // gtag(‘js’, new Date());
+         // gtag(‘config’, ‘UA-XXXXXXXX-1’);
+
+         function initialiseGoogleAnalytics() {
+           gtag('js', new Date());
+           gtag('config', 'UA-121419345-2');
+         }
+
+         // Subscribe for the cookie consent events
+         $(document).bind("user_cookie_already_accepted", function(event, object) {
+           initialiseGoogleAnalytics();
+         });
+
+         $(document).bind("user_cookie_consent_changed", function(event, object) {
+           const userConsentGiven = $(object).attr('consent');
+           if (userConsentGiven) {
+             // User clicked on enabling cookies. Now it’s safe to call the
+             // init functions.
+             initialiseGoogleAnalytics();
+           }
+         });
+      </script>
    </body>
 </html>
